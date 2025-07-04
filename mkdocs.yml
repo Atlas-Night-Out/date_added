@@ -1,0 +1,19 @@
+site_name: Date added 
+site_url: https://atlas-night-out.github.io/xdrip-Nightscout-AAPS/
+
+
+theme:
+  name: mkdocs
+
+
+  plugins:
+    
+    - search
+    - git-revision-date-localized:
+        type: datetime
+        fallback_to_build_date: true
+        show_timezone: true
+        date_format: 'MMMM dd, yyyy'
+        time_format: 'HH:mm:ss'
+        enable_creation_date: true
+    -    enable_creation_date: true
